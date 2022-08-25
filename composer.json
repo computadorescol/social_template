@@ -1,4 +1,23 @@
 {
+    ...
+    "require": {
+        "sdubois/amezmo-drupal-integrations": "dev-main"
+    },
+    ...
+    "extra": {
+        "drupal-scaffold": {
+            "allowed-packages": [
+                "sdubois/amezmo-drupal-integrations"
+            ]
+        }
+    },
+    "autoload": {
+        "files": [
+            "load.environment.php"
+        ]
+    }
+}
+{
     "name": "goalgorilla/social_template",
     "description": "Social project template for composer based Open Social projects.",
     "type": "project",
